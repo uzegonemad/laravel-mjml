@@ -27,6 +27,11 @@ class MJML
     protected $path;
 
     /**
+     * @var string
+     */
+    protected $compiledPath;
+
+    /**
      * MJML constructor.
      *
      * @param View $view
